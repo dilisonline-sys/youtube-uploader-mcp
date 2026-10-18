@@ -20,13 +20,13 @@ AI‑powered YouTube uploader—no CLI, no YouTube Studio, and no secrets ever s
 
 ### For Mac and Linux
 ```bash
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/anwerj/youtube-uploader-mcp/master/scripts/install.sh)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/dilisonline-sys/youtube-uploader-mcp/master/scripts/install.sh)"
 ```
 
 
 ### For Windows(Powershell)
 ```Powershell
-Invoke-WebRequest -UseBasicParsing "https://raw.githubusercontent.com/anwerj/youtube-uploader-mcp/master/scripts/install.ps1" -OutFile "$env:TEMP\install.ps1"; PowerShell -NoProfile -ExecutionPolicy Bypass -File "$env:TEMP\install.ps1"
+Invoke-WebRequest -UseBasicParsing "https://raw.githubusercontent.com/dilisonline-sys/youtube-uploader-mcp/master/scripts/install.ps1" -OutFile "$env:TEMP\install.ps1"; PowerShell -NoProfile -ExecutionPolicy Bypass -File "$env:TEMP\install.ps1"
 ```
 ### Expected result
 
@@ -47,7 +47,7 @@ This single command will
 ## Manual Installation
 Please check [Single Command Installation](#single-command-installation), proceed if you prefer manual installation.
 
-Visit the [Releases](https://github.com/anwerj/youtube-uploader-mcp/releases) page and download the appropriate binary for your operating system:
+Visit the [Releases] page and download the appropriate binary for your operating system:
 
 - `youtube-uploader-mcp-linux-amd64`
 - `youtube-uploader-mcp-darwin-arm64`
