@@ -7,7 +7,7 @@ function Info($msg) { Write-Host "[INFO] $msg" -ForegroundColor Blue }
 function Warn($msg) { Write-Host "[WARN] $msg" -ForegroundColor Yellow }
 function Err($msg) { Write-Host "[ERR] $msg" -ForegroundColor Red }
 
-$REPO_OWNER = "anwerj"
+$REPO_OWNER = "adilisonline-sys"
 $REPO_NAME = "youtube-uploader-mcp"
 $BINARY_BASENAME = "youtube-uploader-mcp"
 $WIN_DEFAULT_BIN = "$env:USERPROFILE\youtube-uploader-mcp"
