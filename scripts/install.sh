@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-REPO_OWNER="anwerj"
+REPO_OWNER="dilisonline-sys"
 REPO_NAME="youtube-uploader-mcp"
 BINARY_BASENAME="youtube-uploader-mcp"
 INSTALL_VERSION="${INSTALL_VERSION:-latest}"
